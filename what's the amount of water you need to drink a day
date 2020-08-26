@@ -1,6 +1,0 @@
-from time import sleep
-wheigth = int(input('Enter your weight so I can calculate how many ml of water you need to drink per day:' ))
-whater = wheigth*35
-print(f'{whater} ml')
-sleep(4)
-print("That's the exact amount of water you need to ingest per day")
