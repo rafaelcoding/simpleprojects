@@ -1,8 +1,8 @@
 while True:
     number = int(input('Type a number:'))
     he = hex(number) [2:]
-    print('Hexadecimal:{}'.format(he))
+    print(f'Hexadecimal:{he}')
     oc = oct(number) [2:]
-    print('Octal:{}'.format(oc))
+    print(f'Octal:{oc}')
     bi = bin(number)[2:]
-    print(f'Binary:{number}')
+    print(f'Binary:{bi}')
